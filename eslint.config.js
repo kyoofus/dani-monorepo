@@ -7,6 +7,7 @@ import globals from 'globals';
 /** @type {import('eslint').Linter.FlatConfig[]} */
 export default [
 	// https://eslint.org/blog/2022/08/new-config-system-part-2/
+	// https://eslint.org/docs/latest/use/configure/migration-guide
 	// migration guide
 	js.configs.recommended,
 	...ts.configs.recommended,
