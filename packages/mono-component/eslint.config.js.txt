@@ -30,12 +30,12 @@ export default [
 	{
 		// 구성 객체에서 다른 키 없이 ignores가 사용되면 패턴은 전역 무시로 작동합니다.
 		ignores: ['build/', '.svelte-kit/', 'dist/']
+	},
+	{
+		rules: {
+			// 'no-unused-vars': 'error',
+			'@typescript-eslint/no-unused-vars': 'warn',
+			'@typescript-eslint/no-use-before-define': 'warn'
+		}
 	}
-	// {
-	// 	rules: {
-	// 		// 'no-unused-vars': 'error',
-	// 		'@typescript-eslint/no-unused-vars': 'warn',
-	// 		'@typescript-eslint/no-use-before-define': 'warn'
-	// 	}
-	// }
 ];

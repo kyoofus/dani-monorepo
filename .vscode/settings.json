@@ -1,5 +1,15 @@
 {
-    "eslint.workingDirectories": [
-        "packages/mono-component/src"
-    ]
+    // "eslint.enable": true, 
+    // "eslint.validate":[
+    //     "javascript",
+    //     "typescript",
+    // ],
+    // "eslint.workingDirectories": [
+    //     "./packages/*", 
+    // ]
+    // "eslint.workingDirectories": [
+    //     {
+    //         "mode": "auto"
+    //     }
+    // ]
 }
